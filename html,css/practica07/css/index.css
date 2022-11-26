@@ -1,13 +1,16 @@
 *{
+
   padding: 0;
   margin: 0;
 }
 
 body{
+
   height: 100vh;
 }
 
 main{
+
   height: 100%;
   display: flex;
   justify-content: center;
@@ -22,11 +25,17 @@ button{
 }
 
 button::before{
-  
+
   content: 'Pasa por encima';
 }
 
 button:hover{
+
   color: white;
   background-color: green;
+}
+
+button::before{
+
+  content: '¡Hecho!';
 }
