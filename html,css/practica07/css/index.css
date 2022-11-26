@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  height: 100vh;
+}
+
+main{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+
+  height: 3em;
+  width: 15em;
+  font-size: medium;
+}
+
+button::before{
+  
+  content: 'Pasa por encima';
+}
+
+button:hover{
+  color: white;
+  background-color: green;
+}
