@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+/* Variables */
+:root {
+  --colorGoogleBtn: #1a73e8;
+  --colorContrastFont: #fff;
+  --colorTwitterBtnFont: #000;
+  --colorTwitterBtn: #ccc;
+  --colorTwitterBtnHover: #999;
+  --colorFormInput: #212121;
+  --colorFormInputHover: #454045;
+  --colorBg: #161717;
+  --colorInputShadow: #eb50ff4f;
+  --colorSubmitBtn: #ea4c89;
+}
+
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Formato página */
+body {
+  background-color: var(--colorBg);
+  color: var(--colorContrastFont);
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 450px;
+}
+
+.buttons {
+  width: 100%;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding-left: 5px;
+}
+
+.google-btn {
+  background-color: var(--colorGoogleBtn);
+  color: --colorContrastFont;
+  border: none;
+  border-radius: 5px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+
+  cursor: pointer;
+}
+
+.google-btn:hover {
+  opacity: 0.75;
+}
+
+.google-btn picture {
+  width: 35px;
+  height: 35px;
+  background-color: var(--colorContrastFont);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-btn picture img {
+  width: 75%;
+}
+
+.google-btn span {
+  color: var(--colorContrastFont);
+  font-weight: 500;
+  padding: 0 15px;
+}
+
+.twitter-btn {
+  background-color: var(--colorTwitterBtn);
+  color: var(--colorTwitterBtnFont);
+  border: none;
+  border-radius: 5px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+
+  cursor: pointer;
+}
+
+.twitter-btn:hover {
+  background-color: var(--colorTwitterBtnHover);
+  opacity: 0.75;
+}
+
+.twitter-btn picture {
+  width: 35px;
+  height: 35px;
+  background-color: var(--colorTwitterBtn);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twitter-btn picture img {
+  width: 75%;
+}
+
+.twitter-btn span {
+  color: var(--colorTwitterBtnFont);
+  font-weight: 500;
+  padding: 0 15px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+.separator hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid var(--colorTwitterBtn);
+}
+
+.separator span {
+  color: var(--colorTwitterBtnHover);
+}
+
+.section-inputs {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+}
+
+label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label span {
+  font-weight: 700;
+}
+
+label input {
+  width: 100%;
+  background-color: var(--colorFormInput);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14pt;
+  transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+  color: var(--colorContrastFont);
+}
+
+.section-inputs label {
+  width: 80%;
+}
+
+label input:hover {
+  background-color: var(--colorFormInputHover);
+  border: solid 1px var(--colorFormInput);
+  box-shadow: 0 0 4px var(--colorInputShadow);
+}
+
+label input:focus {
+  background-color: var(--colorFormInputHover);
+  border: solid 1px var(--colorFormInput);
+  box-shadow: 0 0 4px var(--colorInputShadow);
+}
+
+.checkbox-label {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: 20px;
+}
+
+.checkbox-label span {
+  font-weight: 400;
+}
+
+.submit-btn {
+  background-color: var(--colorSubmitBtn);
+  color: var(--colorContrastFont);
+  text-align: center;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14pt;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  opacity: 0.75;
+}
