@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio-07",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conjuntos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaume Vidal",
+  "license": "ISC"
+}
