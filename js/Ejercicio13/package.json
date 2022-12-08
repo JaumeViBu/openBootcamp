@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "index.js"
+  },
+  "keywords": [],
+  "author": "Jaume Vidal",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2"
+  }
+}
