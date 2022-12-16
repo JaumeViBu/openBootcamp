@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "http": "http-server -o index.html"
+    "http": "http-server -o ."
   },
   "keywords": [],
   "author": "Jaume Vidal",
