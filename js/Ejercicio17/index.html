@@ -1,8 +1,3 @@
-<!-- Crea un nuevo proyecto de Node
-Crea un script para lanzar un servidor de desarrollo con http-server
-- Lanza el servidor de desarrollo a través del script anterior y prueba que el botón funciona correctamente
-- Integra jQuery a través del CDN (https://releases.jquery.com/)
-- En el fichero index.js crea un evento click en el botón a través de jQuery, que muestre por consola "Hola, estoy utilizando jQuery" -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,11 +6,12 @@ Crea un script para lanzar un servidor de desarrollo con http-server
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script src="./jquery-3.x-git.min.js" defer></script>
   <script src="./index.js" defer></script>
 </head>
 
 <body>
-  <button onclick="alert('click en el botón')">Botón</button>
+  <button id="btn" onclick="alert('click en el botón')">Botón</button>
 </body>
 
 </html>
