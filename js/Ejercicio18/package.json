@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "http": "http-server ./index.html -o -c-1"
+  },
+  "keywords": [],
+  "author": "Jaume Vidal",
+  "license": "ISC"
+}
